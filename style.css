@@ -1,0 +1,164 @@
+ html,  body {
+  padding:0;
+  margin:0;
+  font-family: 'Roboto', arial;
+}
+
+h1, h2, h3, h4, h5 p {
+    margin: 0;
+}
+
+/* HEADER SECTION */
+.top-bar {
+  background-color: #1F2937;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+.header-logo {
+  display: inline;
+  padding-left: 10px;
+  color: white;
+}
+
+nav {
+  display: inline;
+  float: right;
+  text-decoration: none;
+}
+
+nav > a {
+  color: white;
+  text-decoration: none;
+  padding: 9px;
+}
+
+/* Top Container */
+
+.top-container {
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.top-container-img {
+  width: 300px;
+  height: auto;
+}
+
+h1 {
+  color: white;
+}
+
+.left-section {
+  color:white;
+  padding-right: 5%;
+}
+
+/*CONTENT SECTION*/
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.content-container > div > img {
+  width: 300px;
+  height: auto;
+  border: 3px solid #3882F6;
+  border-radius: 5px;
+  border-color: #3882F6;
+  margin: 10px;
+}
+
+.content-container > div > p {
+  text-align: center;
+}
+
+/* QUOTE SECTION */
+
+.quote-container {
+  background-color: #E5E7Eb;
+  padding: 3%;
+}
+
+h3 {
+  text-align: center;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: 'Roboto', arial;
+}
+
+h4 {
+  text-align: right;
+  padding-right: 40%;
+}
+
+/* SIGN-UP SECTION */
+
+.sign-up-container {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left:30%;
+  margin-right:30%;
+  margin-top:3%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  background-color: #3882F6;
+  border-radius: 15px;
+  color: white;
+  flex-direction: row;
+}
+
+.sign-up-item {
+  margin-left: 5%;
+  flex: 1;
+}
+
+.sign-up-item2 {
+  padding-top: 3%;
+  margin-right: 5%;
+}
+
+.action-button {
+  border: 2px solid white;
+}
+
+
+/* FOOTER */
+
+footer {
+  background-color: #1F2937;
+  text-align: center;
+  color: white;
+  padding-top: 0.3%;
+  padding-bottom: 0.3%;
+  margin: 0px;
+}
+
+/* MISC Stylings */
+
+button {
+  color: white;
+  background-color: #3882F6;
+  border: none;
+  border-radius: 8px;
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
